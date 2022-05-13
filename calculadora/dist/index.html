@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <html>
+    <!--Tudo-->
+
+    <head>
+        <!--Titulo-->
+        <title> Imersão Dev Alura - Aula 01 </title>
+    </head>
+
+    <body>
+        <!--COMEÇO COM AS IFORMAÇOES-->
+        <div class="container">
+            <h1 class="page-title">
+                Calculadora
+            </h1>
+            <p class="page-subtitle">
+                Faça suas contas aqui !
+            </p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+    </body>
+
+    <div class="container1">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <!--Conversor-->
+                    <form onsubmit="event.preventDefault()" class="caixa">
+                        <h1>Use a calculadora</h1>
+                        <p class="text-muted"> Insira a operação que deseja fazer</p>
+                        <input id="conta" type="text" name="" placeholder="Escolha a operação(adicão,subtração e multiplicação)">
+                        <input id="valor1" type="text" name="" placeholder="primeiro valor">
+                        <input id="valor2" type="text" name="" placeholder="segundo valor">
+                        <p id="valorCapturado" class="valorCapturado"></p>
+                        <input type="submit" onclick="capturar()" value="Converter" id="btn">
+                        <p class="nome">Feito Por :Jonas Luna De Freitas</p>
+                        <div class="col-md-12">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </html>

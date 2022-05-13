@@ -1,0 +1,119 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: -100%;
+  background-color: #000000;
+  background-size: 95vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 40vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 80px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+
+body {
+  font-family: 'Roboto Mono',monospace;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #fbff00ea, #0278ff);
+}
+.caixa {
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 100px; 
+  border-radius :12px;
+  left: 410px;
+  background: #333232;
+  text-align: center;
+  transition: 0.25s;
+  margin-top: 100px
+
+}
+
+.caixa input[type="text"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s
+}
+
+.caixa h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500
+}
+
+.caixa input[type="text"]:focus,
+.caixa input[type="password"]:focus {
+  width: 300px;
+  border-color: #2ecc71
+}
+
+.caixa input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer
+}
+
+.caixa input[type="submit"]:hover {
+  background: linear-gradient(to right, #2bff00ea, #0aec61)
+}
+.text-muted{
+  color: #ffffff;
+}
+
+.valorCapturado{
+  color: #ffffff;
+}
+
+.text-muted2{
+  font-size: 12px;
+  color: Red;
+}
+
+.nome{
+  color: #ffffff;
+}
+
