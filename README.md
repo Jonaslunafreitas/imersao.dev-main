@@ -4,6 +4,13 @@
 
 </h1>
 
+  ## And see it working in
+
+**[Go to the website](https://flourishing-dasik-14eb4a.netlify.app)**
+```bash
+https://flourishing-dasik-14eb4a.netlify.app
+``` 
+
 ## 🧪 Technologies
 
   
