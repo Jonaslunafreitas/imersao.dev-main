@@ -1,6 +1,6 @@
 <h1  align="center">
 
-<img  alt="Podcastr"  title="Podcastr"  src="https://github.com/Jonaslunafreitas/imersao.dev/blob/main/imers%C3%A3o.dev.gif" />
+<img  alt="Podcastr"  title="Podcastr"  src="https://github.com/Jonaslunafreitas/imersao.dev-main/blob/master/imersão.dev.gif" />
 
 </h1>
 
